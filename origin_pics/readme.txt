@@ -1,0 +1,1 @@
+cache thumbnails for standard videos.
