@@ -20,29 +20,31 @@ We provide a simple pygame demo in this repo.
 ## Usage
 
 (1) Use ready-made video to score
-	1. Put the target(standard) video into `origin_videos` folder;
+
+1. Put the target(standard) video into `origin_videos` folder;
  
-	2. Open *origin.py*, change `namelist` in `main` into the name of the target video(without .mp4);
+2. Open *origin.py*, change `namelist` in `main` into the name of the target video(without .mp4);
  
-	3. Noted that `camera` in `main` should be set to *False*, otherwise the videos under the target folder could be deleted;
+3. Noted that `camera` in `main` should be set to *False*, otherwise the videos under the target folder could be deleted;
  
-	4. Run *origin.py*, and the rendered video and extracted json files will be generated;
+4. Run *origin.py*, and the rendered video and extracted json files will be generated;
  
-	5. (optional) put a thumbnail of the standard video into `origin_pics` folder;
+5. (optional) put a thumbnail of the standard video into `origin_pics` folder;
  
-	6. Run *imitate.py* after changing the work directory based on your environment;
+6. Run *imitate.py* after changing the work directory based on your environment;
  
-	7. The scoring process can be restarted by clicking input box.
+7. The scoring process can be restarted by clicking input box.
 
 (2) Record the standard video
-	1. Open *origin.py*, change `namelist` into the name of the video to be recording, or set `namelist` as empty to use default name;
+
+1. Open *origin.py*, change `namelist` into the name of the video to be recording, or set `namelist` as empty to use default name;
  
-	2. Set the `camera` as *True* in *origin.py*;
+2. Set the `camera` as *True* in *origin.py*;
  
-	3. Run *origin.py* to do video recording, and the rendered video and extracted json files will be generated;
+3. Run *origin.py* to do video recording, and the rendered video and extracted json files will be generated;
  
-	4. (optional) put a thumbnail of the standard video into `origin_pics` folder;
+4. (optional) put a thumbnail of the standard video into `origin_pics` folder;
  
-	5. Run *imitate.py* after changing the work directory based on your environment;
+5. Run *imitate.py* after changing the work directory based on your environment;
  
-	6. The scoring process can be restarted by clicking input box.
+6. The scoring process can be restarted by clicking input box.
