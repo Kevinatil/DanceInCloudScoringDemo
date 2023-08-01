@@ -7,13 +7,22 @@ This repo provides a framework to use your customized scoring algorithm to do sc
 
 This version supports *video* scoring, including *video choosing mode* and *video recording mode*. You can choose a ready-made video or use the framework to record your dancing moves directly. After uploading the video, the framework will do pose estimation, score regression and remark generation. The score includes dancing move score and rhythm score. The dancing move score includes total score and detail scores for each joint.
 
+## Environment
+
+The scoring process is based on [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose). Please configure the OpenPose environment before running this framework.
+
+```bash
+# After configuring OpenPose, run command to install packages
+pip install -r requirements.txt
+```
+
 ## Demo
 
-A website demo using scoring framework.
+The *Dance In Cloud* online dance evaluation platform.
 
 ![img](https://github.com/Kevinatil/DanceInCloudScoringDemo/blob/main/media/website.gif)
 
-We provide a simple pygame demo in this repo.
+We provide a simple pygame demo in this repo using the same scoring process as the online platform. We removed the regression weights and scoring details because of the commercial usage. You can define your own evaluation function based on your actual usage.
 
 ![img](https://github.com/Kevinatil/DanceInCloudScoringDemo/blob/main/media/pygame.gif)
 
