@@ -11,11 +11,11 @@ This version supports *video* scoring, including *video choosing mode* and *vide
 
 A website demo using scoring framework.
 
-![img](media/website.gif)
+![img](https://github.com/Kevinatil/DanceInCloudScoringDemo/blob/main/media/website.gif)
 
 We provide a simple pygame demo in this repo.
 
-![img](media/pygame.gif)
+![img](https://github.com/Kevinatil/DanceInCloudScoringDemo/blob/main/media/pygame.gif)
 
 ## Usage
 
