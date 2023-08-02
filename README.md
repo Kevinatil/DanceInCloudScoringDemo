@@ -5,7 +5,7 @@ A demo for dancing scoring using Openpose from *DanceInCloud*.
 ## Introduction
 This repo provides a framework to use your customized scoring algorithm to do scoring and evaluating to the dancing videos based on standard dancing videos. In addition to dancing, other videos that are rated according to standard movements, such as fitness movements, martial arts, and yoga, can also be rated and evaluated using this framework.
 
-This version supports *video* scoring, including *video choosing mode* and *video recording mode*. You can choose a ready-made video or use the framework to record your dancing moves directly. After uploading the video, the framework will do pose estimation, score regression and remark generation. The score includes dancing move score and rhythm score. The dancing move score includes total score and detail scores for each joint.
+This version supports *video* scoring, including *video choosing mode* and *video recording mode*. You can choose a ready-made video or use the framework to record your dancing movements directly. After uploading the video, the framework will do pose estimation, score regression and remark generation. The score includes dancing movement score and rhythm score. The dancing movement score includes total score and detail scores for each joint.
 
 ## Environment
 
@@ -27,6 +27,8 @@ We provide a simple pygame demo in this repo using the same scoring process as t
 ![img](https://github.com/Kevinatil/DanceInCloudScoringDemo/blob/main/media/pygame.gif)
 
 ## Usage
+
+Noted that this repo is just a pygame framework without detailed scoring process. If you want to get real scores from our process, please turn to [MoveImitatingGame-DanceInCloud](https://github.com/Kevinatil/MoveImitatingGame-DanceInCloud/) where we provide a full scoring process with scoring functions obfuscated by `pyarmor`.
 
 (1) Use ready-made video to score
 
