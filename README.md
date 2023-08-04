@@ -1,4 +1,4 @@
-# DanceInCloudScoringDemo
+# Dance In Cloud Scoring Demo
 A demo for dancing scoring using Openpose from *DanceInCloud*.
 
 
