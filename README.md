@@ -2,6 +2,8 @@
 A demo for dancing scoring using Openpose from *DanceInCloud*.
 
 
+Noted that this repo is just a framework without detailed scoring process. If you want to calculate scores using our scoring process and regression weights, please turn to [MoveImitatingGame-DanceInCloud](https://github.com/Kevinatil/MoveImitatingGame-DanceInCloud/) where we provide a full scoring process with scoring functions obfuscated by `pyarmor`.
+
 ## Introduction
 This repo provides a framework to use your customized scoring algorithm to do scoring and evaluating to the dancing videos based on standard dancing videos. In addition to dancing, other videos that are rated according to standard movements, such as fitness movements, martial arts, and yoga, can also be rated and evaluated using this framework.
 
