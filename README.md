@@ -61,3 +61,10 @@ Noted that this repo is just a pygame framework without detailed scoring process
 5. Run *imitate.py* after changing the work directory based on your environment;
  
 6. The scoring process can be restarted by clicking input box.
+
+
+## Acknowledgement
+
+We thank Shanghai Film Art Academy for the standard dancing videos, test dancing videos and official scores for model training. 
+
+We thank Shanghai Film Art Academy and Beijing Dance Academy for the testing and valuable suggestions on our website.
