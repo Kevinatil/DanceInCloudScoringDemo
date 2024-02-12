@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 The *Dance In Cloud* online dance evaluation platform.
 
-![img](https://github.com/Kevinatil/DanceInCloudScoringDemo/blob/main/media/website.gif)
+https://github.com/Kevinatil/DanceInCloudScoringDemo/assets/64370697/7b8f4acc-b564-4345-8bb2-8383c9b3a740
 
 We provide a simple pygame demo in this repo using the same scoring process as the online platform. We removed the regression weights and scoring details because of the commercial usage. You can define your own evaluation function based on your actual usage.
 
